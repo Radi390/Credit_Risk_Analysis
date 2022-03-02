@@ -3,7 +3,7 @@
 This analysis is about Credit and risk. A dataset from LendingClub, a peer-to-peer lending services company, is used to decide each loan application classified as "Low-Risk" or "High-Risk." Like every Credit and Risk problem, the dataset contains unbalanced counts for each class, and it is crucial to sensitively find out High-Risk applications in the trade-off between precision and recall.
 To fulfill the problem, I used "imbalanced-learn" and "scikit-learn" libraries to build and evaluate models utilizing resampling. Six different algorithms, include RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier, and EasyEnsembleClassifier, are used to predict credit risk and evaluate the performances of these models.
 
-## procedure
+## Procedure
 This analysis starts by preprocessing data and transforming none numeric data to numeric data by format changing and encoding with "get_dummies."
 After that, in the "credit_risk_resampling" notebook, two oversampling, an undersampling, and one model combination of both over and undersampling are used separately to resample the data. Then, the Logistic Regression model was applied to resampled data for each four resampling models. Finally, a balanced accuracy score, confusion matrix, and imbalanced classification report were used to evaluate the performance of each algorithm.
 In the "credit_risk_ensemble" notebook 
