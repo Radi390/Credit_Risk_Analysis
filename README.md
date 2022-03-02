@@ -31,4 +31,11 @@ In the "credit_risk_ensemble" notebook
 
 ## Summary
 
+### Results
+
+![This is an image](/Results.jpg)
+
+
+
+### Conclusion
 In conclusion, Easy Ensemble Classifier performs better than others by far between these six models. Its accuracy score is 0.93 and delivers sensitivity of 0.92 and 0.94 for High-risk and Low-risk. Furthermore, precision for High-risk is 0.09, which is three times better than Balanced Random Forest Classifier and nine times better than other models. After this analysis, we could determine that between these six algorithms, the Easy Ensemble Classifier is a better choice.
